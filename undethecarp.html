@@ -1,0 +1,111 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="js/bootstrap.min.js">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.16.0/umd/popper.min.js"></script>
+    <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
+    <link rel="stylesheet" href="css/bootstrap.min.css">
+    <link rel="stylesheet" href="css/all.css">
+
+
+</head>
+<div id="preloader-active">
+    <div class="preloader d-flex align-items-center justify-content-center">
+        <div class="preloader-inner position-relative">
+            <div class="preloader-circle"></div>
+            <div class="preloader-img pere-text">
+                <p style="color: red;">HAPUS TV</p>
+            </div>
+        </div>
+    </div>
+</div>
+
+<body>
+
+
+
+    <div class=" container-fluid" style="background-color: black;">
+        <nav class="navbar navbar-expand-md  ">
+            <a class="navbar-brand h1" href="#" style="color: white;">
+                <h1>HAPUS TV</h1>
+            </a>
+            <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#collapsibleNavbar">
+                <span class="navbar-toggler-icon bg-light"></span>
+            </button>
+            <div class="collapse navbar-collapse ml-5" id="collapsibleNavbar">
+                <ul class="navbar-nav" style="margin-left: 5%;">
+                    <li class="nav-item ">
+                        <a class="nav-link" href="index.html" style="color: white;">HOME</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="nowshowing.html" style="color: white;">NOW SHOWING</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="comingsoon.html" style="color: white;">COMING SOON</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="" style="color: white;">CONTACT</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#" style="color: white;">ABOUT US</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="booking..html" style="color: white;">BOOKING</a>
+                    </li>
+                </ul>
+            </div>
+        </nav>
+    </div>
+
+    <div class="row w-100" id="back">
+        <!-- <div > -->
+        <div class="col col-md-3">
+            <img src="images/under the carpet.jpg" alt="" id="imageticket">
+        </div>
+        <div class="col col-md-9" id="showinginfo">
+            <h4>Under The Carpet</h4>
+            <button class="btn-disable" style="background-color: red; color: white;">BTC</button> <span
+                style="display: inline;">⏱ 02 hours 16 minutes</span>
+            <p>Actor: <span>DEYEMI OKANLAWON, Femi Jacobs, Iyabo Ojo, Lydia Lawrence-Nze,</span></p>
+            <p>Director: <span>Tope Alake</span></p>
+            <p>Genre: <span>Drama, Nollywood</span></p>
+            <p>Release: <span>March 12, 2021</span></p>
+            <select name="" id="chooseOne" style="display:flex;">
+                <option value="">CHOOSE A CINEMA</option>
+                <option value="1">Dugbe, HAPUS TV</option>
+                <option value="2">Ring Road, HAPUS TV</option>
+                <option value="3">Ojo, HAPUS TV</option>
+                <option value="4">Mokola, HAPUS TV</option>
+                <option value="5">Apata, HAPUS TV</option>
+
+            </select>
+            <div style="display: block;">
+                <input type="text" value="date" name="" id="date" placeholder="show date" disabled
+                    style="background-color: white;">
+                <input type="text" value="time" name="" id="time" placeholder="show time" disabled
+                    style="background-color: white;">
+
+                <button class="btn btn-primary" id="btn">continue</button>
+            </div>
+        </div>
+
+
+    </div>
+
+    </div>
+
+
+    <script src="js/all.js"></script>
+</body>
+
+</html>
