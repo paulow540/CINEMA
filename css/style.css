@@ -2,7 +2,7 @@
     background-color: rgb(255, 136, 0);
     text-decoration: underline;
 }
-h1{
+#h1{
   /* color: rgb(255, 102, 0); */
   color: #fa8807;
   /* outline: red; */
@@ -26,6 +26,20 @@ h1{
   }
   p{
     margin-bottom: -2px;
+  }
+  div a{
+    display: block;
+    /* color: rgb(194, 88, 12); */
+
+  }
+ div  h5{
+    color: rgb(194, 88, 12);
+
+  }
+  #footer{
+    /* color: white; */
+    background: black;
+    margin-top: -10px;
   }
   .preloader {
     background-color: #f7f7f7;
@@ -135,6 +149,9 @@ background-color: rgb(204, 102, 19);
   #img{
     /* background: url(../images/1bgs.png); */
     background-image: url(../images/1bgs.png);
+  }
+  footer div{
+    display: flex;
   }
  
  

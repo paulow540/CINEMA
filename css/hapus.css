@@ -1,11 +1,4 @@
-
-  li a:hover {
-    background-color: rgb(255, 136, 0);
-    text-decoration: underline;
-  }
-
-
-  .preloader {
+.preloader {
     background-color: #f7f7f7;
     width: 100%;
     height: 100%;
@@ -20,12 +13,11 @@
     transition: 0.6s;
     margin: 0 auto;
   }
-
   .preloader .preloader-circle {
     width: 100px;
     height: 100px;
     position: relative;
-    border: 1px solid blue;
+      border: 1px solid blue;
     border-bottom-color: transparent;
     border-left-color: transparent;
     border-right-color: transparent;
@@ -40,7 +32,6 @@
     -o-transition: 1.6s;
     transition: 1.6s;
   }
-
   .preloader .preloader-img {
     position: absolute;
     top: 50%;
@@ -58,11 +49,10 @@
     -o-transition: 0.6s;
     transition: 0.6s;
   }
-
   .preloader .preloader-img img {
     max-width: 80px;
   }
-
+  
   @-webkit-keyframes zoom {
     0% {
       -webkit-transform: rotate(0deg);
@@ -71,7 +61,6 @@
       -o-transition: 0.6s;
       transition: 0.6s;
     }
-
     100% {
       -webkit-transform: rotate(360deg);
       transform: rotate(360deg);
@@ -80,7 +69,6 @@
       transition: 0.6s;
     }
   }
-
   @keyframes zoom {
     0% {
       -webkit-transform: rotate(0deg);
@@ -89,7 +77,6 @@
       -o-transition: 0.6s;
       transition: 0.6s;
     }
-
     100% {
       -webkit-transform: rotate(360deg);
       transform: rotate(360deg);
@@ -99,38 +86,42 @@
     }
   }
 
-  #imageticket{
-      height: 400px;
-      width: 300px;
-      margin: 5px 0px 0px 15px;
+  #firstform{
+    /* border: 1px solid gray; */
+    border-radius: 5px;
+    margin-top: 100px;
+    box-shadow: 2px 3px 4px gray;
+  width: 400px;
+   height: 350px;
   }
-  /* #showinginfo {
-      margin-top: -350px;
-      margin-left: 300px;
-    } */
 
+  #secondform{
+    /* border: 1px solid gray; */
+    border-radius: 5px;
+    margin-top: 100px;
+    box-shadow: 2px 3px 4px gray;
+  width: 400px;
+   height: 500px;
+   display: none;
+   /* display: inherit; */
 
- 
-  body{
-      /* background: url(../images/1bgs.png); */
-    /* background-image: url(../images/1bgs.png); */
-    background: rgba(233, 20, 20, 0.925) url(../images/1bgs.png) ;
-   
-    /* color: red; */
-    width: 100%;
+  }
+  .btn-light{
+    background:rgb(190, 91, 10);
     color: white;
-      
+    padding: -10px;
+  }
+  a:hover{
+    text-decoration: none;
+  }
+@media screen and (max-width: 700px){
+  form{
+    /* border: 1px solid gray; */
+    border-radius: 5px;
+    margin-top: 100px;
+    box-shadow: 2px 3px 4px gray;
+   width: 250px;
+   height: 300px;
   }
 
-  @media screen and (max-width: 700px) {
-    /* #imageticket {
-      height: 150px;
-      width: 200px;
-      margin-top: 5px;
-
-    } */
-
-    #showinginfo {
-      margin-left: 20px;
-    }
-  }
+}
