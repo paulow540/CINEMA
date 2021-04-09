@@ -20,10 +20,12 @@
       let yo = $(`#${ID}`).children('.imageAll').attr('id');
       // console.log(yo, ID);
       let ong = $(`#${yo}`).attr('src');
-      let first = $(`#button${index}`).prev().attr('id');
-      let second = $(`#button${index}`).prev().prev().attr('class');
-      let thrid = $(`#button${index}`).prev().prev().prev().attr('class');
-      let fourth = $(`#button${index}`).prev().prev().prev().prev().attr('class');
+      let first = $(`#button${index}`).prev().attr('class');
+      // let first1 =$()
+      let second = $(`#button${index}`).prev().prev().html();
+      let thrid = $(`#button${index}`).prev().prev().prev().html();
+      let fourth = $(`#button${index}`).prev().prev().prev().prev().attr('value');
+      // let fourth1 =$(`#${fourth}`).attr('value')
   
 
       let inother ={
@@ -33,10 +35,13 @@
         thethrid : thrid,
         thefourth : fourth
       }
+      console.log(inother);
+    
 
       outother.push(inother)
      localStorage.setItem('outo', JSON.stringify(outother))
-
+    //  return
+location.href ='neww.html'
 
     })
 

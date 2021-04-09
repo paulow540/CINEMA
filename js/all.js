@@ -55,12 +55,21 @@
 
   }
 
-  $(window).on('load', function () {
-    win = localStorage.getItem('outo')
-    winner = JSON.parse(win)
-
-    
    
+   addEventListener('load',() =>{
+     
+    if (localStorage.getItem('outo')  != '') {
+      let pp=0
+    let  view = JSON.parse(localStorage.getItem('outo'))
+      console.log(view);
+      $('#mmm').attr('src', view[pp].theimage)
+      $('#ti').html( view[pp].thefourth)
+      $('#span').html(view[pp].thethrid)
+      $('#dis').html(view[pp].thesecond)
+     
+      
+      
+    }
    
   });
 
